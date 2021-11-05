@@ -28,7 +28,7 @@ Paragraph paragraph = new Paragraph(List.of(
         ))
     ));
 ```
-Вызов paragraph.toMarkdown(new StringBuilder()) должен заполнять переданный StringBuilder следующим содержимым:
+Вызов `paragraph.toMarkdown(new StringBuilder())` должен заполнять переданный `StringBuilder` следующим содержимым:
    `__1~2*34*5~6__`
    
    
@@ -62,5 +62,5 @@ Paragraph paragraph = new Paragraph(List.of(
         ))
     ));
 ```
-Calling paragraph.toMarkdown(new StringBuilder()) should fill the passed StringBuilder with the following content:
+Calling `paragraph.toMarkdown(new StringBuilder())` should fill the passed `StringBuilder` with the following content:
  `__1~2*34*5~6__`
